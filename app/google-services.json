@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "404143497639",
+    "project_id": "attachment-application-portal",
+    "storage_bucket": "attachment-application-portal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404143497639:android:ce8c9dc6cba7d015419682",
+        "android_client_info": {
+          "package_name": "com.example.attachmentapplicationportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404143497639-qlmje09hkspqrjkn4t6mdae3rqm055n2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBozXxG7bEu0se5wRkUufAwwBWFiiPZRUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404143497639-qlmje09hkspqrjkn4t6mdae3rqm055n2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

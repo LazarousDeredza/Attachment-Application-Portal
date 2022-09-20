@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:background="@drawable/background"
+android:layout_height="match_parent"
+tools:context=".AdvertiseJob">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/signuptitle"
+    android:text="Advertise Job Post"
+    android:textSize="@dimen/_20sdp"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:gravity="center"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="2dp"
+    android:layout_marginBottom="15dp"/>
+<ScrollView
+    android:layout_below="@id/signuptitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="match_parent"
+        android:gravity="center"
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jobTitle"
+            android:background="#30ffffff"
+            android:hint="Job Tittle"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:padding="20dp"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:drawablePadding="15dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="7dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/location"
+            android:layout_below="@id/name"
+            android:background="#30ffffff"
+            android:hint="Location"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:drawablePadding="15dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="7dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/startDate"
+            android:layout_below="@id/endDate"
+            android:background="#30ffffff"
+            android:hint="Application Start Date"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:padding="15dp"
+            android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+            android:drawablePadding="15dp"
+            android:focusable="false"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="7dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/endDate"
+            android:layout_below="@id/endDate"
+            android:background="#30ffffff"
+            android:hint="Application End Date"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:focusable="false"
+            android:padding="15dp"
+            android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="7dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/qualifcations"
+            android:layout_below="@id/endDate"
+            android:background="#30ffffff"
+            android:hint="Qualifications"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:padding="15dp"
+            android:drawableLeft="?android:attr/actionModeFindDrawable"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="7dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:layout_below="@id/qualifcations"
+            android:background="#30ffffff"
+            android:hint="Job summary / description"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:padding="15dp"
+            android:drawableLeft="@android:drawable/stat_notify_voicemail"
+            android:drawablePadding="15dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupbtn"
+            android:text="Save"
+            android:textSize="25dp"
+            android:layout_above="@id/socialicons"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:layout_marginTop="15dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+</RelativeLayout>
